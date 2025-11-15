@@ -1,6 +1,12 @@
 import React from "react";
 import { motion } from "framer-motion";
 import { Users, Linkedin, Github, Mail, Code, Palette, TrendingUp, Briefcase, MessageSquare, Zap, icons, Timer } from "lucide-react";
+import Clara from '../assets/images/equipe/clara.png'
+import Edmilson from '../assets/images/equipe/edmilson.png'
+import Guilherme from '../assets/images/equipe/gui.png'
+import Joao from '../assets/images/equipe/joao.png'
+import Laiza from '../assets/images/equipe/laiza.png'
+import Thiago from '../assets/images/equipe/thiago.png'
 
 export default function Team() {
   const teamMembers = [
@@ -9,7 +15,7 @@ export default function Team() {
       role: "Desenvolvedor Fullstack",
       subtitle: "Desenvolvedor Fullstack",
       description: "Lidera o desenvolvimento técnico e garante a qualidade das soluções entregues",
-      image: "src/assets/images/equipe/thiago.png",
+      image: Thiago,
       icon: Code,
       skills: ["React", "Node.js", "Python", "DevOps"],
     },
@@ -18,7 +24,7 @@ export default function Team() {
       role: "Desenvolvedor FrontEnd",
       subtitle: "Desenvolvedor FrontEnd",
       description: "Especialista em criar interfaces modernas e experiências de usuário excepcionais",
-      image: "src/assets/images/equipe/gui.png",
+      image: Guilherme,
       icon: Palette,
       skills: ["React", "UI/UX", "TypeScript", "Tailwind"],
       highlight: true,
@@ -28,7 +34,7 @@ export default function Team() {
       role: "Gerente de Mídias Sociais",
       subtitle: "",
       description: "Responsável pela estratégia digital e presença da marca nas redes sociais",
-      image: "src/assets/images/equipe/laiza.png",
+      image: Laiza,
       icon: MessageSquare,
       skills: ["Marketing", "Branding", "Content", "Analytics"],
       highlight: true,
@@ -38,7 +44,7 @@ export default function Team() {
       role: "Gerente de Projetos e Dev Web",
       subtitle: "",
       description: "Gerencia projetos e desenvolve soluções web de alta qualidade",
-      image: "src/assets/images/equipe/joao.png",
+      image: Joao,
       icon: Briefcase,
       skills: ["Gestão", "Web Dev", "Scrum", "Strategy"],
       highlight: true,
@@ -48,7 +54,7 @@ export default function Team() {
       role: "Desenvolvedora FrontEnd e Especialista em Interface",
       subtitle: "",
       description: "Transforma designs em código com atenção aos detalhes e performance",
-      image: "src/assets/images/equipe/clara.png",
+      image: Clara,
       icon: Code,
       skills: ["React", "CSS", "JavaScript", "Responsive"],
     },
@@ -57,7 +63,7 @@ export default function Team() {
       role: "Desenvolvedor FrontEnd e Engenheiro de Interface",
       subtitle: "",
       description: "Foca em criar componentes reutilizáveis e código limpo e eficiente",
-      image: "src/assets/images/equipe/edmilson.png",
+      image: Edmilson,
       icon: Code,
       skills: ["React", "Vue.js", "HTML5", "Animation"],
     },
