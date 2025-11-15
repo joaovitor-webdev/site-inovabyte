@@ -16,7 +16,7 @@ import {
   Target,
 } from "lucide-react";
 import UserFlowSimulator from "../components/gomerce/UserFlowSimulator";
-import VideoShowcase from "../components/gomerce/VideoShowcase";
+import VideoShowcase from "../components/gomerce/VideoShowCase";
 import DemoRequestForm from "../components/gomerce/DemoRequestForm";
 
 export default function GoMerce() {
