@@ -1,17 +1,78 @@
-# React + Vite
+# Inova Byte — Site Institucional
+ 
+ Site institucional desenvolvido com React + Vite, apresentando serviços, portfólio, equipe e um showcase do produto GoMerce.
+ 
+ ## Sobre
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+ Aplicação web responsiva com SPA (Single Page Application) que utiliza React Router, Tailwind CSS e componentes desacoplados. Inclui páginas como Home, Serviços, Portfólio, Equipe, Sobre, Contato e uma landing do GoMerce com formulário de demonstração e simulação de fluxo do usuário.
 
-Currently, two official plugins are available:
+ ### Imagens do projeto
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+ ![Screenshot](./src/assets/images/screenshot.png)
 
-## React Compiler
+ ### Demo
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+ Acesse a demo ao vivo aqui: [Link para Demo](https://inovabytesistemas.netlify.app)
 
-## Expanding the ESLint configuration
+ ## Tecnologias
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
-# inova-byte-site
+ - React 18
+ - Vite
+ - React Router
+ - Tailwind CSS (PostCSS, Autoprefixer)
+ - JavaScript
+ - ESLint
+ 
+ ## Como Usar
+
+ Opção 1 — Rodar localmente (recomendado)
+
+ - Pré-requisitos: Node.js 18+ (ou compatível com Vite), npm ou yarn/pnpm
+ - Instale as dependências:
+
+ ```bash
+ npm install
+ # ou
+ pnpm install
+ # ou
+ yarn
+ ```
+
+ - Rode em modo desenvolvimento com HMR:
+
+ ```bash
+ npm run dev
+ ```
+
+ - Acesse a aplicação no endereço indicado pelo terminal (por padrão):
+
+ http://localhost:5173
+
+ Opção 2 — Build de produção e pré-visualização
+
+ ```bash
+ npm run build
+ npm run preview
+ ```
+
+ ## Estrutura
+
+ - index.html: template raiz do Vite
+ - src/main.jsx: bootstrap do React
+ - src/App.jsx: roteamento e layout base
+ - src/components: componentes de UI e layout
+ - src/pages: páginas (home, services, portfolio, team, about, contact, gomerce)
+ - src/assets: imagens e ícones
+ - public/: estáticos servidos sem processamento
+
+ ## Scripts
+
+ - dev: inicia o servidor de desenvolvimento Vite
+ - build: gera build de produção
+ - preview: pré-visualiza a build localmente
+
+ ## Autor
+
+ - Nome: João Vitor - Web Dev
+ - GitHub: https://github.com/joaovitor-webdev
+ - Portfólio: https://joaovitor-webdev.netlify.app
