@@ -16,7 +16,7 @@
 
  ## Tecnologias
 
- - React 18
+ - React.js
  - Vite
  - React Router
  - Tailwind CSS (PostCSS, Autoprefixer)
