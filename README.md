@@ -12,7 +12,7 @@
 
  ### Demo
 
- Acesse a demo ao vivo aqui: [Link para Demo](https://inovabytesistemas.netlify.app)
+ Acesse a demo ao vivo aqui: [Link para Demo](https://inovabyte-sistemas.vercel.app)
 
  ## Tecnologias
 
@@ -75,4 +75,4 @@
 
  - Nome: João Vitor - Web Dev
  - GitHub: https://github.com/joaovitor-webdev
- - Portfólio: https://joaovitor-webdev.netlify.app
+ - Portfólio: https://joaovitor-webdev.vercel.app
